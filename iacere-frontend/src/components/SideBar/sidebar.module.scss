@@ -1,0 +1,46 @@
+.sidebar {
+  width: 17.5%;
+  background: #495c83;
+  padding: 2.5rem 1rem 2rem 1rem;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+
+  .menu {
+    margin-top: 47px;
+    font-size: 1rem;
+    &__link {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      display: flex;
+      text-decoration: none;
+      align-items: center;
+      text-decoration: none;
+      list-style-type: none;
+      span {
+        margin-top: 37px;
+        font-size: 1rem;
+        margin: auto;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .active {
+    .menu {
+      &__link {
+        background: #7a86b6;
+        font-weight: 500;
+        color: #fff;
+        border-radius: 8px;
+      }
+    }
+  }
+}

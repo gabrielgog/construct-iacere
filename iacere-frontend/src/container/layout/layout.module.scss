@@ -1,0 +1,15 @@
+.main {
+  &__layout {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    column-gap: 5%;
+  }
+
+  &__page {
+    width: 69%;
+    position: relative;
+    left: 27%;
+    top: 10rem;
+  }
+}
