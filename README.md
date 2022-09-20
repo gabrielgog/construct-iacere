@@ -33,7 +33,9 @@ Application allows two kind of users: .I.e Admin and normal users. The administr
 
 ## Needs update.
 
-- setting up protected route and redirection. For now use the following routes to navigate pending new updates: 
+- setting up protected route and redirection. 
 
-{local_url}/auth/login
-{local_url}/dashboard
+For now use the following routes to navigate pending new updates: 
+
+- {local_url}/auth/login
+- {local_url}/dashboard
